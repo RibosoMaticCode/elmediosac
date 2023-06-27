@@ -1,0 +1,148 @@
+/* GENERALS */
+
+.title{
+  text-align: center;
+  color: #3E4192;
+}
+.line_max{
+  max-width: 900px;
+  width: 100%;
+}
+/* HOME */
+
+/* conocenos */
+.about_m_image{
+  max-width: 400px;
+  height: auto;
+}
+
+/* customers */
+.customers{
+  text-align: center;
+}
+.customers li{
+  display: inline;
+}
+.customers li img{
+  max-width: 200px;
+  height: auto;
+  max-height: 105px;
+  border-radius: 10px;
+}
+
+/* bg-blue */
+.bg_blue{
+  background-image: url(../public/images/bg-blue.jpg);
+}
+.legend{
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 100;
+}
+.legend strong{
+  font-weight: 600;
+}
+
+/* form submit */
+.back_form{
+  background-color: #E6E6E6;
+}
+.form_comtainer{
+  width: 100%;
+  max-width: 800px;
+}
+
+/* ABOUT US */
+
+.about_image{
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.about_text{
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+.super_title{
+  font-size: 4em;
+  color: #3E4192;
+  font-weight: bold;
+  margin: 0!important;
+  line-height: 1.2em;
+}
+.super_subtitle{
+  font-size: 2em;
+  margin: 0!important;
+  line-height: 1em;
+}
+.about_map{
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.about_cities li{
+  list-style-type: none;
+  font-size: 1.4em;
+}
+.about_cities li img{
+  max-width: 30px;
+  height: auto;
+}
+
+/* CUSTOMERS */
+
+.customer_img{
+  max-width: 200px;
+  display: block;
+}
+.customer_coverimg{
+  width: 350px;
+}
+.customer_desc{
+  width: 100%;
+}
+
+/* PANELS */
+
+.panel_card{
+  border-radius: .8rem;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  overflow: auto;
+}
+.panel_card img{
+  max-width: 100%;
+  height: auto;
+}
+.panel_card h2{
+  color: #fff;
+  background-image: linear-gradient(to right, #3E4192, #E7387C);
+  padding: 10px 0;
+  font-size: 1.6em;
+}
+
+/* CONTACT */
+.contact_frm{
+  background-color: #E6E6E6;
+  max-width: 900px;
+}
+.contact_image{
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.contact_links li{
+  list-style-type: none;
+}
+.contact_links li img{
+  max-width: 32px;
+}
+.contact_links a{
+  font-size: 1.2em;
+  color: #333;
+}

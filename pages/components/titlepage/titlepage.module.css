@@ -1,0 +1,8 @@
+.bg_titlepage{
+    background-image: url(./../../../public/images/title_page.jpg);
+    background-size: cover;
+    /* background-color: red; */
+}
+.titlepage{
+    color: #fff;
+}
