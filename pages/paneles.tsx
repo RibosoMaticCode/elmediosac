@@ -22,44 +22,51 @@ export default function Home() {
       <TitlePage title="Paneles" />
       <div className="container-xl py-5">
         <div className="row">
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 mb-5">
                 <div className={styles.panel_card}>
-                    <Image  src="/images/slide1.jpg" alt="panel" width="430" height="200"/>
-                    <h2 className="text-center py-2 mb-0">Trujillo</h2>
+                    <Image  src="/images/panel1.jpg" alt="panel" width="430" height="200"/>
+                    {/* <h2 className="text-center py-2 mb-0">Virú</h2> */}
                 </div>
             </div>
-            <div className="col-md-6 mb-4">
+            <div className="col-md-6 mb-5">
                 <div className={styles.panel_card}>
-                    <Image  src="/images/slide1.jpg" alt="panel" width="430" height="200"/>
-                    <h2 className="text-center py-2 mb-0">Chimbote</h2>
+                    <Image  src="/images/panel2.jpg" alt="panel" width="430" height="200"/>
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-md-6 mb-5">
+                <div className={styles.panel_card}>
+                    <Image  src="/images/panel3.jpg" alt="panel" width="430" height="200"/>
+                </div>
+            </div>
+            <div className="col-md-6 mb-5">
+                <div className={styles.panel_card}>
+                    <Image  src="/images/panel4.jpg" alt="panel" width="430" height="200"/>
+                </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-md-6 mb-5">
+                <div className={styles.panel_card}>
+                    <Image  src="/images/panel5.jpg" alt="panel" width="430" height="200"/>
+                </div>
+            </div>
+            <div className="col-md-6 mb-5">
+                <div className={styles.panel_card}>
+                    <Image  src="/images/panel6.jpg" alt="panel" width="430" height="200" />
                 </div>
             </div>
         </div>
         <div className="row">
             <div className="col-md-6 mb-4">
                 <div className={styles.panel_card}>
-                    <Image  src="/images/slide1.jpg" alt="panel" width="430" height="200"/>
-                    <h2 className="text-center py-2 mb-0">Chiclayo</h2>
+                    <Image  src="/images/panel7.jpg" alt="panel" width="430" height="200"/>
                 </div>
             </div>
             <div className="col-md-6 mb-4">
                 <div className={styles.panel_card}>
-                    <Image  src="/images/slide1.jpg" alt="panel" width="430" height="200"/>
-                    <h2 className="text-center py-2 mb-0">Trujillo</h2>
-                </div>
-            </div>
-        </div>
-        <div className="row">
-            <div className="col-md-6 mb-4">
-                <div className={styles.panel_card}>
-                    <Image  src="/images/slide1.jpg" alt="panel" width="430" height="200"/>
-                    <h2 className="text-center py-2 mb-0">Lima</h2>
-                </div>
-            </div>
-            <div className="col-md-6 mb-4">
-                <div className={styles.panel_card}>
-                    <Image  src="/images/slide1.jpg" alt="panel" width="430" height="200" />
-                    <h2 className="text-center py-2 mb-0">Virú</h2>
+                    <Image  src="/images/panel8.jpg" alt="panel" width="430" height="200" />               
                 </div>
             </div>
         </div>

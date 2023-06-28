@@ -28,7 +28,7 @@ export default function Home() {
             <Image src="/images/logo_conocenos.png" alt="Logo Conocenos" className={`${styles.about_m_image} img-fluid mb-4  mx-auto d-block`} width="400" height="200" />
           </div>
           <div className="col-md-6">
-            <p>Somos una empresa de publicidad especializada en servicios que otorgan valor de marca, principalmente, a través de Publicidad Outdoor (Exterior). La empresa se ha diversificado con dos unidades de negocio, la primera con Publicidad Indoor (interior) para puntos de venta y Publicidad Below the line (BTL), para segmentos específicos del mercado donde se aplica comunicación no masiva, ni tradicional.</p>
+            <p>Somos una empresa de publicidad especializada en publicidad en la vía pública, con una trayectoria en la compra y venta de espacios publicitarios y campañas que han impactado la publicidad urbana.</p>
             <p className="text-end"><Link href="/conocenos">Ver más »</Link></p>
           </div>
         </div>
@@ -43,6 +43,9 @@ export default function Home() {
           <li>
             <Image  src="/images/cliente2.jpg" className="img-fluid" alt="Cliente" width="200" height="200" />
           </li>
+          <li>
+            <Image  src="/images/cliente3.jpg" className="img-fluid" alt="Cliente" width="200" height="200" />
+          </li>
         </ul>
       </div>
       <div className={`${styles.bg_blue} my-5`}>
@@ -51,7 +54,7 @@ export default function Home() {
         </div>
       </div>
       <div className="container-xl">
-        <ul className={`${styles.customers} mb-5`}>
+        <ul className={`${styles.customers}`}>
           <li className="p-2">
             <Image src="/images/17.jpg" className="img-fluid my-2" alt="Cliente" width="200" height="200" />
           </li>
@@ -62,6 +65,11 @@ export default function Home() {
             <Image src="/images/19.jpg" className="img-fluid my-2" alt="Cliente" width="200" height="200" />
           </li>
         </ul>
+        <div className="py-3 mb-2">
+            <p className="text-center">
+            <Link href="/paneles">Ver paneles &gt;&gt;</Link>
+            </p>
+        </div>
       </div>
       <div className={`${styles.back_form} py-5`}>
         <div className="container-xl">

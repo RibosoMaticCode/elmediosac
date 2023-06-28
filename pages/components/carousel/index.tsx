@@ -13,21 +13,21 @@ export default function Carrusel() {
           height="200"
         />
         <Carousel.Caption>
-          <h3>Primera imagen</h3>
-          <p>Descripción de la primera imagen</p>
+          <h3></h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="/images/slide2.jpg"
+          src="/images/slide1.jpg"
           alt="Imagen 2"
           width="200"
           height="200"
         />
         <Carousel.Caption>
-          <h3>Segunda imagen</h3>
-          <p>Descripción de la segunda imagen</p>
+          <h3></h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -27,7 +27,10 @@ export default function Home() {
           </div>
           <div className="col-md-6">
             <p className={styles.about_text}>
-            Somos una empresa de publicidad especializada en servicios que otorgan valor de marca, principalmente, a través de Publicidad Outdoor (Exterior). La empresa se ha diversificado con dos unidades de negocio, la primera con Publicidad Indoor (interior) para puntos de venta y Publicidad Below the line (BTL), para segmentos específicos del mercado donde se aplica comunicación no masiva, ni tradicional.
+            Somos una empresa especializada en publicidad en la vía pública, con una trayectoria en la compra y venta de espacios publicitarios y campañas que han impactado la publicidad urbana.
+            </p>
+            <p className={styles.about_text}>
+            Nuestra misión es llevar los mensajes de la marca a las audiciencias de la manera más eficiente y medible. Somos la solución más completa al contar con un portafolio de puntos estratégicos más variado y con la capacidad de adaptarlos a las necesidades de nuestros clientes.
             </p>
           </div>
         </div>
@@ -46,11 +49,17 @@ export default function Home() {
           </div>
           <div className="col-md-5">
             <ul className={styles.about_cities}>
-              <li className="my-4 py-2"><Image  src="/images/dot.png" alt="Dot" width="20" height="20"/> Trujillo</li>
-              <li className="my-4 py-2"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Virú</li>
-              <li className="my-4 py-2"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Lima</li>
-              <li className="my-4 py-2"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Chiclayo</li>
-              <li className="my-4 py-2"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Chimbote</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20"/> Trujillo</li>             
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Lima</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Piura</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Chiclayo</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Huaraz</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Chepén</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Tarapoto</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Chimbote</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Lambayeque</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Ferreñafe</li>
+              <li className="my-4"><Image  src="/images/dot.png" alt="Dot" width="20" height="20" /> Jaén</li>
             </ul>
           </div>
         </div>
