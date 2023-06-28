@@ -24,9 +24,9 @@
   display: inline;
 }
 .customers li img{
-  max-width: 200px;
+  max-width: 280px;
   height: auto;
-  max-height: 105px;
+  /* max-height: 105px; */
   border-radius: 10px;
 }
 
@@ -63,6 +63,7 @@
 .about_text{
   font-size: 1.2em;
   line-height: 2em;
+  text-align: right;
 }
 
 .super_title{

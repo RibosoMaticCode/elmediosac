@@ -6,3 +6,8 @@ img {
   width: 100%;
   height: auto;
 }
+.my-body-class{
+  background-image: url(../public/images/corner.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
